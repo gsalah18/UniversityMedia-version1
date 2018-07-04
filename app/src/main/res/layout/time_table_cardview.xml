@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_name"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:text="Linear"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/res_btn"
+                android:text="@string/title_activity_res_std_data"
+                android:layout_marginEnd="5dp"
+                android:layout_gravity=""
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/course_time"
+                android:layout_alignParentStart="true"
+                android:text="8-9:90 am"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/course_days"
+                android:layout_centerHorizontal="true"
+                android:text="Mon-Wed"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:id="@+id/course_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="E224"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_lec"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+
+                android:textSize="20sp"
+
+                android:text="Dr.Eman Droubi"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eval_btn"
+                android:minWidth="103dp"
+                android:text="@string/evaluate"
+                android:layout_marginEnd="5dp"
+                android:visibility="invisible"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

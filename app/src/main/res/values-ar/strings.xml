@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uni-Media</string>
+    <string name="title_activity_class_data">طلاب الشعبه</string>
+    <string name="title_activity_student">طالب</string>
+    <string name="title_activity_lecturer">محاضر</string>
+    <string name="title_activity_assignment_lec">واجبات</string>
+    <string name="title_activity_assignment_std">واجبات</string>
+    <string name="title_activity_solution">حلول</string>
+    <string name="title_activity_gpa">المعدل التراكمي</string>
+    <string name="title_activity_mark_data">علامات</string>
+    <string name="title_activity_resource_data">مصادر وكتب</string>
+    <string name="title_activity_res_std_data">مصادر وكتب</string>
+    <string name="title_activity_web_view">صفحه ويب</string>
+    <string name="title_activity_exam_data_lec">امتحانات</string>
+    <string name="title_activity_chat">دردشه</string>
+    <string name="title_activity_ask_data">مراسلات</string>
+    <string name="title_activity_add_post">اضافه خبر</string>
+    <string name="title_activity_show_post">الخبر</string>
+    <string name="prompt_email">الرقم الجامعي</string>
+    <string name="prompt_password">الرقم السري</string>
+    <string name="action_sign_in">تسجيل دخول</string>
+    <string name="action_sign_in_short">تسجيل دخول</string>
+    <string name="error_invalid_email">الرقم الجامعي غير صحيح</string>
+    <string name="error_invalid_password">الرقم السري قصير</string>
+    <string name="error_field_required">هذه الخانه مطلوبه</string>
+    <string name="present">حاضر</string>
+    <string name="absent">غائب</string>
+    <string name="ta">طالب مسؤول</string>
+    <string name="regular">طالب عادي</string>
+    <string name="select_file">اختار ملف</string>
+    <string name="select_folder">لم يتم اختيار مجلد</string>
+    <string name="file_not_selected">لم يتم اختيار ملف</string>
+    <string name="read_failed">خطا اثناء القراءه</string>
+    <string name="server_error">خطا في الانترنت</string>
+    <string name="add_assignment">اضافه واجب</string>
+    <string name="name_of_assignment">اسم الواجب</string>
+    <string name="selec_assignment">اختار الواجب</string>
+    <string name="select_assignment">اختار الواجب</string>
+    <string name="add_start_date">تاريخ بدايه</string>
+    <string name="add_deadline_date">تاريخ نهايه التسليم</string>
+    <string name="add_exam">اضافه امتحان</string>
+    <string name="add_date">التاريخ</string>
+    <string name="add_time">الوقت</string>
+    <string name="add_mark">اضافه علامه</string>
+    <string name="the_mark">العلامه</string>
+    <string name="the_full_mark">العلامه الكامله</string>
+    <string name="the_quetion">السؤال</string>
+    <string name="send_it_anynomous">ارسال كمجهول</string>
+    <string name="add_resources">اضافه مصدر او كتاب</string>
+    <string name="resource_name">اسم المصدر او الكتاب</string>
+    <string name="resource_link">رابط المصدر</string>
+    <string name="name">اسم</string>
+    <string name="this_is_my_question">هذا هو سؤالي</string>
+    <string name="q_a">مراسلات</string>
+    <string name="assignment">واجب</string>
+    <string name="students">طلاب</string>
+    <string name="exams">امتحانات</string>
+    <string name="calculate_gpa">احسب المعدل التراكمي</string>
+    <string name="old_gpa">المعدل السابق</string>
+    <string name="old_hour">الساعات المجتازه</string>
+    <string name="calculate">احسب</string>
+    <string name="clear">امسح</string>
+    <string name="first">اول</string>
+    <string name="second">ثاني</string>
+    <string name="midterm">نصفي</string>
+    <string name="finals">نهائي</string>
+    <string name="activites">نشاط</string>
+    <string name="old_pass">كلمه السر القديمه</string>
+    <string name="new_pass">كلمه السر الجديده</string>
+    <string name="confirm_pass">تاكد الرقم السري</string>
+    <string name="change_pass">تغيير الرقم السري</string>
+    <string name="add_photo">اضافه صوره</string>
+    <string name="create_cv">عمل سيره ذاتيه</string>
+    <string name="mark">علامه</string>
+    <string name="hours">ساعات</string>
+    <string name="old_mark">علامه سابقه</string>
+    <string name="home">الرئيسيه</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="actions">قائمه</string>
+    <string name="settings">اعدادات</string>
+    <string name="info">معلومات</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="extra">اضافي</string>
+    <string name="gpa">المعدل التراكمي</string>
+    <string name="someone_asked_question">احدهم ارسل سؤال</string>
+    <string name="ok">حسنا</string>
+    <string name="something_went_wrong">خدث خطا ما</string>
+    <string name="you_need_to_enter_all_information">يجب ملئ جميع الخانات</string>
+    <string name="cancel">الغاء</string>
+    <string name="add">اضافه</string>
+    <string name="add_selution">اضافه حل</string>
+    <string name="solution_sent">تم ارسال الحل</string>
+    <string name="someone_sent_message">احدم ارسل رساله للمحادثه</string>
+    <string name="semester_gpa">معدل الفصلي</string>
+    <string name="cumlative_gpa">المعدل التراكمي</string>
+    <string name="fill_all_infomarion">يجب ملئ المعدل التراكمي السابق والساعات المجتازه</string>
+    <string name="freshmen_statment">اذا كنت طالب جديد ضع الساعات المجتازه والمعدل التراكمي صفر</string>
+    <string name="caution">تحذير</string>
+    <string name="pass_changed">تم تغيير الرقم السري</string>
+    <string name="send_question">ارسل سؤال</string>
+    <string name="write_question">اكتب السؤال</string>
+    <string name="send">ارسل</string>
+    <string name="sent">تم الارسال</string>
+    <string name="write_question_before">اكتب رساله قبلضغظ ارسال</string>
+    <string name="add_chat">اضافه محاثه</string>
+    <string name="chat_name">اسم المحادثه</string>
+    <string name="add_chat_name">ادخل اسم المحادثه</string>
+    <string name="same_chat_name">هناك محاثه بنفس الاسم</string>
+    <string name="add_them">اضافه تنسيق</string>
+    <string name="chat_added">تمت اضافه المحادثه</string>
+    <string name="pic_one_student">يجب ان تختار طالب واحد على الاقل</string>
+    <string name="there_no_marks">لو توجد علامات</string>
+    <string name="take_photo">التقط صوره</string>
+    <string name="pic_photo_from_gallery">اختر صوره</string>
+    <string name="uploading">يتم تحميل الصوره</string>
+    <string name="pic_added">تم تحميل الصوره</string>
+    <string name="old_pass_mismatch">الرقم السري الجديد لا يتطابق</string>
+    <string name="old_pass_wrong">الرقم السري القديم خاظئ</string>
+    <string name="wrong_id_pass">خطا في الرقم او الرقم السري</string>
+    <string name="the_title">العنوان</string>
+    <string name="add_post">اضافه الخبر</string>
+    <string name="the_content">المحتوى</string>
+    <string name="evaluate">تقييم</string>
+    <string name="start_live">ابدا المباشر</string>
+    <string name="enter_live_title">ادخل عنوان المباشر</string>
+    <string name="live_ended">اتنتهى البث</string>
+
+    <!--Arrays-->
+    <string-array name="exam_types">
+        <item>اول</item>
+        <item>نصفي</item>
+        <item>ثاني</item>
+        <item>نهائي</item>
+    </string-array>
+
+    <string-array name="mark_types">
+        <item>اول</item>
+        <item>نصفي</item>
+        <item>ثاني</item>
+        <item>نهائي</item>
+        <item>نشاط</item>
+    </string-array>
+
+    <string-array name="student_tabs">
+        <item>الجدول الدراسي</item>
+        <item>محادثات</item>
+        <item>مباشر</item>
+        <item>مراسلات</item>
+        <item>اخبار</item>
+    </string-array>
+
+    <string-array name="lecturer_tabs">
+        <item>مواد</item>
+        <item>مراسلات</item>
+        <item>واجبات</item>
+    </string-array>
+
+    <string-array name="chat_arr">
+        <item>C++ Chat</item>
+        <item>Major Chat</item>
+        <item>OOP Project Chat</item>
+    </string-array>
+
+    <string-array name="live_arr">
+        <item>Calculus 2 Explanation</item>
+        <item>For Loops</item>
+        <item>GUI in Java</item>
+    </string-array>
+
+    <string-array name="courses">
+        <item>OOP</item>
+        <item>AI</item>
+        <item>Linear</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="no_data_arr">
+        <item>لا يوجب بيانات</item>
+    </string-array>
+
+</resources>

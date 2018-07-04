@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Uni-Media</string>
+
+
+    <!--Server IP-->
+    <!--string name="ServerIp">http://192.168.1.108/Android</string-->
+    <string name="ServerIp" translatable="false">http://unimedia.000webhostapp.com/Android</string>
+    <string name="apiKey" translatable="false">46115932</string>
+    <string name="apiSecret" translatable="false">2a18b58188838751fa4975a1b6bcc3bffdcb41e8</string>
+
+    <!--Activates-->
+    <string name="title_activity_class_data">Class Students</string>
+    <string name="title_activity_student">Student</string>
+    <string name="title_activity_lecturer">Lecturer</string>
+    <string name="title_activity_assignment_lec">Assignments</string>
+    <string name="title_activity_assignment_std">Assignments</string>
+    <string name="title_activity_solution">Solutions</string>
+    <string name="title_activity_gpa">GPA</string>
+    <string name="title_activity_mark_data">Marks</string>
+    <string name="title_activity_resource_data">Resources</string>
+    <string name="title_activity_res_std_data">Resources</string>
+    <string name="title_activity_web_view">Web Page</string>
+    <string name="title_activity_exam_data_lec">Exams</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_ask_data">Q/A</string>
+    <string name="title_activity_add_post">Add News</string>
+    <string name="title_activity_show_post">News</string>
+
+
+    <!--Strings-->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="prompt_email">ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This ID is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="ta">TA</string>
+    <string name="regular">Regular</string>
+    <string name="select_file">Select file</string>
+    <string name="select_folder">No folder selected</string>
+    <string name="file_not_selected">No file selected, can not continue.</string>
+    <string name="read_failed">Error while retrieving file.</string>
+    <string name="server_error">Server Error</string>
+    <string name="add_assignment">Add an Assignment</string>
+    <string name="name_of_assignment">Name of the Assignment</string>
+    <string name="selec_assignment">Select the Assignment</string>
+    <string name="select_assignment">Select the Assignment</string>
+    <string name="add_start_date">Add Start Date</string>
+    <string name="add_deadline_date">Add Deadline Date</string>
+    <string name="add_exam">Add an Exam</string>
+    <string name="add_date">Add The Date</string>
+    <string name="add_time">Add The Time</string>
+    <string name="add_mark">Add a Mark</string>
+    <string name="the_mark">The Mark</string>
+    <string name="the_full_mark">The Full Mark</string>
+    <string name="the_quetion">The Question...</string>
+    <string name="send_it_anynomous">Send it Anonymous?</string>
+    <string name="add_resources">Add Resource</string>
+    <string name="resource_name">Resource Name</string>
+    <string name="resource_link">Resource Link</string>
+    <string name="name">Name</string>
+    <string name="this_is_my_question">This is My Question</string>
+    <string name="q_a">Q/A</string>
+    <string name="assignment">Assignment</string>
+    <string name="students">Students</string>
+    <string name="exams">Exams</string>
+    <string name="calculate_gpa">Calculate your GPA</string>
+    <string name="old_gpa">Old GPA</string>
+    <string name="old_hour">Old Hours</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="midterm">Midterm</string>
+    <string name="finals">Final</string>
+    <string name="activites">Activates</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">new Password</string>
+    <string name="confirm_pass">Confirm New Password</string>
+    <string name="change_pass">Change Password</string>
+    <string name="add_photo">Add a Photo</string>
+    <string name="create_cv">Create CV</string>
+    <string name="mark">Mark</string>
+    <string name="hours">Hours:</string>
+    <string name="old_mark">Old Mark:</string>
+    <string name="home">Home</string>
+    <string name="profile">Settings</string>
+    <string name="actions">Actions</string>
+    <string name="settings">Settings</string>
+    <string name="info">INFO</string>
+    <string name="log_out">LogOut</string>
+    <string name="extra">Extra</string>
+    <string name="gpa">GPA</string>
+    <string name="someone_asked_question">Someone asked a question</string>
+    <string name="ok">Ok</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="you_need_to_enter_all_information">You need to enter all information</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="add_selution">Add a Solution</string>
+    <string name="solution_sent">Solution Sent</string>
+    <string name="someone_sent_message">Someone sent a message to the chat</string>
+    <string name="semester_gpa">The Semester GPA:</string>
+    <string name="cumlative_gpa">The Cumulative GPA:</string>
+    <string name="fill_all_infomarion">You have to fill Old GPA and hours</string>
+    <string name="freshmen_statment">If you\'re a freshmen just fill them with zeros</string>
+    <string name="caution">Caution</string>
+    <string name="pass_changed">Password Changed</string>
+    <string name="send_question">Send a Question</string>
+    <string name="write_question">Write the Question...</string>
+    <string name="send">Send</string>
+    <string name="sent">Sent</string>
+    <string name="write_question_before">Write a Question before click on send</string>
+    <string name="add_chat">Add a chat</string>
+    <string name="add_chat_name">Enter chat name</string>
+    <string name="chat_name">Chat Name</string>
+    <string name="same_chat_name">There is a chat with the same name</string>
+    <string name="add_them">Add Them</string>
+    <string name="chat_added">Chat Added</string>
+    <string name="pic_one_student">You have to pic at least one student</string>
+    <string name="there_no_marks">There is no marks</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="pic_photo_from_gallery">Pic a photo from the gallary</string>
+    <string name="uploading">Uploading the picture .......</string>
+    <string name="pic_added">Picture Uploaded</string>
+    <string name="old_pass_mismatch">The new password doesn\'t match</string>
+    <string name="old_pass_wrong">Old password is wrong</string>
+    <string name="wrong_id_pass">Wrong ID or Password</string>
+    <string name="the_title">The Title</string>
+    <string name="add_post">Add News</string>
+    <string name="the_content">The Content</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="start_live">Start Live</string>
+    <string name="enter_live_title">Enter Live Title</string>
+    <string name="live_ended">Live Ended</string>
+
+
+    <!--Arrays-->
+    <string-array name="exam_types">
+        <item>First</item>
+        <item>MidTerm</item>
+        <item>Second</item>
+        <item>Final</item>
+    </string-array>
+
+    <string-array name="mark_types">
+        <item>First</item>
+        <item>MidTerm</item>
+        <item>Second</item>
+        <item>Final</item>
+        <item>Activities</item>
+    </string-array>
+
+    <string-array name="student_tabs">
+        <item>Time Table</item>
+        <item>Chat</item>
+        <item>Live</item>
+        <item>Q/A</item>
+        <item>News</item>
+    </string-array>
+
+    <string-array name="lecturer_tabs">
+        <item>Courses</item>
+        <item>Q/A</item>
+        <item>Assignment</item>
+    </string-array>
+
+    <string-array name="chat_arr">
+        <item>C++ Chat</item>
+        <item>Major Chat</item>
+        <item>OOP Project Chat</item>
+    </string-array>
+
+    <string-array name="live_arr">
+        <item>Calculus 2 Explanation</item>
+        <item>For Loops</item>
+        <item>GUI in Java</item>
+    </string-array>
+
+    <string-array name="courses">
+        <item>OOP</item>
+        <item>AI</item>
+        <item>Linear</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="no_data_arr">
+        <item>There is not Data</item>
+    </string-array>
+
+
+</resources>

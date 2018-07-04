@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_txt"
+        android:text="Me"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layout"
+        android:layout_alignLeft="@+id/username_txt"
+        android:layout_below="@+id/username_txt">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="2dp"
+            android:layout_alignParentLeft="true"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:id="@+id/textContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded_corner1"
+            android:padding="10dp"
+            android:text="Hay Ya'll"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31/12 8:00:00"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/date_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/layout"/>
+</RelativeLayout>

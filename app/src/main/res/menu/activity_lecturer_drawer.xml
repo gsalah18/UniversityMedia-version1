@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+
+    </group>
+
+    <item android:title="@string/actions">
+        <menu>
+            <item
+                android:id="@+id/marks"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/title_activity_mark_data" />
+            <item
+                android:id="@+id/resources"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_activity_res_std_data" />
+            <item
+                android:id="@+id/exams"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/title_activity_exam_data_lec" />
+        </menu>
+
+    </item>
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:title="@string/info"
+                android:id="@+id/info"
+                android:icon="@android:drawable/ic_dialog_info"/>
+            <item
+                android:title="@string/log_out"
+                android:id="@+id/singout"
+                android:icon="@drawable/signout"
+                />
+        </menu>
+    </item>
+
+</menu>
